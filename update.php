@@ -17,6 +17,12 @@ if (!$user) {
     exit;
 }
 
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    updateUser($_POST, $userId);
+
+    header("Location: index.php");
+}
+
 ?>
 
 <div class="container">
