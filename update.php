@@ -20,6 +20,20 @@ if (!$user) {
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     updateUser($_POST, $userId);
 
+    if (isset($_FILES['picture'])) {
+        if (!is_dir(__DIR__ . "/users/images")) {
+            mkdir(__DIR__ . "/users/images");
+        }
+        //get the file extension from the filename
+        $fileName = $_FILES['picture']['name'];
+        //search for the dot in the filename
+        $dotPosition = strpos($fileName, '.');
+        //take the substring from the dot position till the end of the string
+        $extension = substr($fileName, $dotPosition +1);
+
+        move_uploaded_file($_FILES['picture']['tmp_name'], __DIR__ . "/users/images/$userId.$extension");
+    }
+
     header("Location: index.php");
 }
 
