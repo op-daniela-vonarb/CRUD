@@ -18,7 +18,7 @@ if (!$user) {
 }
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    updateUser($_POST, $userId);
+    $user = updateUser($_POST, $userId);
 
     if (isset($_FILES['picture'])) {
         if (!is_dir(__DIR__ . "/users/images")) {
@@ -32,6 +32,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $extension = substr($fileName, $dotPosition +1);
 
         move_uploaded_file($_FILES['picture']['tmp_name'], __DIR__ . "/users/images/$userId.$extension");
+
+        $user['extension'] = $extension;
+        updateUser($user, $userId);
     }
 
     header("Location: index.php");
