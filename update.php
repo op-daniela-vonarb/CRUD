@@ -1,6 +1,6 @@
 <?php
 include 'partials/header.php';
-require 'users.php';
+require 'users/users.php';
 
 
 if (!isset($_GET['id'])) {
