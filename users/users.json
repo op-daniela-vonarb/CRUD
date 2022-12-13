@@ -2,7 +2,7 @@
     "0": {
         "id": 1,
         "name": "Patricia Lebsack 1",
-        "username": "Marianne",
+        "username": "Mary",
         "email": "Julianne.OConner@kory.org",
         "phone": "123451234",
         "website": "kale.biz",
@@ -28,7 +28,7 @@
     },
     "3": {
         "id": 4,
-        "name": "Kurtis Weissnatter",
+        "name": "Kurtis Weissnat",
         "username": "Elwyn.Skiles",
         "email": "Telly.Hoeger@billy.biz",
         "phone": "210.067.6132",
@@ -40,7 +40,8 @@
         "username": "Maxime_Nienow",
         "email": "Sherwood@rosamond.me",
         "phone": "586.493.6943 x140",
-        "website": "jacynthe.com"
+        "website": "jacynthe.com",
+        "extension": "jpg"
     },
     "5": {
         "id": 6,
@@ -61,7 +62,7 @@
     "$i": {
         "id": 1,
         "name": "Patricia Lebsack 1",
-        "username": "Marianne",
+        "username": "Mary",
         "email": "Julianne.OConner@kory.org",
         "phone": "123451234",
         "website": "kale.biz",
