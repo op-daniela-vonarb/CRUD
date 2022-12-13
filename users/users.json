@@ -1,12 +1,12 @@
 {
     "0": {
         "id": 1,
-        "name": "Patricia Lebsack",
+        "name": "Patricia Lebsack 1",
         "username": "Marianne",
         "email": "Julianne.OConner@kory.org",
         "phone": "123451234",
         "website": "kale.biz",
-        "extension": "jpg"
+        "extension": "PNG"
     },
     "1": {
         "id": 2,
@@ -60,11 +60,11 @@
     },
     "$i": {
         "id": 1,
-        "name": "Patricia Lebsack",
+        "name": "Patricia Lebsack 1",
         "username": "Marianne",
         "email": "Julianne.OConner@kory.org",
         "phone": "123451234",
         "website": "kale.biz",
-        "extension": "jpg"
+        "extension": "PNG"
     }
 }
