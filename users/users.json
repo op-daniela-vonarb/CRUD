@@ -58,23 +58,5 @@
         "email": "Rey.Padberg@karina.biz",
         "phone": "024-648-3804",
         "website": "ambrose.net"
-    },
-    {
-        "name": "Daniela von Arb",
-        "username": "danielavonarb",
-        "email": "daniela@mail.com",
-        "phone": "1234",
-        "website": "daniela.com",
-        "id": 1271668,
-        "extension": "PNG"
-    },
-    {
-        "name": "Pirmin",
-        "username": "pirmin",
-        "email": "pirmin@mail.com",
-        "phone": "55555",
-        "website": "pirmin.ch",
-        "id": 1942142,
-        "extension": "jpg"
     }
 ]
