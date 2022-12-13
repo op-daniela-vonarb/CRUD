@@ -2,8 +2,24 @@
 include 'partials/header.php';
 require 'users/users.php';
 
-$user = createUser($_POST);
+$user = [
+    'id' => '',
+    'name' => '',
+    'username' => '',
+    'email' => '',
+    'phone' => '',
+    'website' => '',
+];
 
-if (isset($_FILES['picture'])) {
+if ($_SERVER['REQUEST_METHOD']=== 'POST') {
+    $user = createUser($_POST);
+
+    if (isset($_FILES['picture'])) {
     uploadImage($_FILES['picture'], $user);
+    }
+    header("Location: index.php");
 }
+
+?>
+
+<?php include '_form.php' ?>
