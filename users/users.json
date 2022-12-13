@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "Patricia Lebsack 2",
+        "name": "Patricia Lebsack 1",
         "username": "Mary",
         "email": "Julianne.OConner@kory.org",
         "phone": "123451234",
@@ -37,7 +37,7 @@
     {
         "id": 5,
         "name": "Nicholas Runolfsdottir V",
-        "username": "Maxime_Nienow",
+        "username": "Maxime",
         "email": "Sherwood@rosamond.me",
         "phone": "586.493.6943 x140",
         "website": "jacynthe.com",
@@ -45,7 +45,7 @@
     },
     {
         "id": 6,
-        "name": "Glenna Reichert 1",
+        "name": "Glenna Reichert",
         "username": "Delphine",
         "email": "Chaim_McDermott@dana.io",
         "phone": "(775)976-6794 x41206",
@@ -60,6 +60,21 @@
         "website": "ambrose.net"
     },
     {
-        "id": 1834753
+        "name": "Daniela von Arb",
+        "username": "danielavonarb",
+        "email": "daniela@mail.com",
+        "phone": "1234",
+        "website": "daniela.com",
+        "id": 1271668,
+        "extension": "PNG"
+    },
+    {
+        "name": "Pirmin",
+        "username": "pirmin",
+        "email": "pirmin@mail.com",
+        "phone": "55555",
+        "website": "pirmin.ch",
+        "id": 1942142,
+        "extension": "jpg"
     }
 ]

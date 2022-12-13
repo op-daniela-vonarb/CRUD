@@ -24,6 +24,9 @@ if (!$user) {
         <div class="card-header">
             <h3>View User: <b><?php echo $user['name'] ?></b></h3>
         </div>
+        <div class="card-body">
+            <a class="btn btn-secondary" href="update.php?id=<?php echo $user['id'] ?>">Update</a>
+            <a class="btn btn-danger" href="delete.php?id=<?php echo $user['id'] ?>">Delete</a>
         <table class="table">
             <tbody>
                 <tr>
